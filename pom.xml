@@ -71,14 +71,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<!--<dependencyManagement>
 		<dependencies>
 			<!-- with junit4.8.2 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
 				<version>${junit-version}</version>
 				<type>jar</type>
-			</dependency>
+			</dependency> -->
 			<!-- Spring -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
 				<version>${spring.version}</version>
@@ -114,29 +114,29 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context-support</artifactId>
 				<version>${spring.version}</version>
-			</dependency>
-
+			</dependency> -->
+<!-- 
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-jms</artifactId>
 				<version>${spring.version}</version>
-			</dependency>
+			</dependency> -->
 
 			<!-- Jackson Json处理工具包 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
 				<version>${jackson.version}</version>
 			</dependency>
-
+ -->
 			<!--freemarker -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.freemarker</groupId>
 				<artifactId>freemarker</artifactId>
 				<version>2.3.18</version>
-			</dependency>
+			</dependency> -->
 			<!-- with mybatis-spring -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis</artifactId>
 				<version>${org.mybatis-version}</version>
@@ -145,21 +145,21 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>org.mybatis</groupId>
 				<artifactId>mybatis-spring</artifactId>
 				<version>${org.mybatis-spring-version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- jdbc driver -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql-connector-java-version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- 连接池 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid</artifactId>
 				<version>${druid.version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- apache commons jar -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>commons-collections</groupId>
 				<artifactId>commons-collections</artifactId>
 				<version>${commons-collections-version}</version>
@@ -181,16 +181,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>commons-codec</groupId>
 				<artifactId>commons-codec</artifactId>
 				<version>${commons-codec-version}</version>
-			</dependency>
+			</dependency> -->
 			<!-- analyze xml use dom4j -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>dom4j</groupId>
 				<artifactId>dom4j</artifactId>
 				<version>${dom4j-version}</version>
-			</dependency>
+			</dependency> -->
 
 			<!-- jstl标签 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>jstl</groupId>
 				<artifactId>jstl</artifactId>
 				<version>1.2</version>
@@ -239,29 +239,29 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>org.json</groupId>
 				<artifactId>json</artifactId>
 				<version>20131018</version>
-			</dependency>
+			</dependency> -->
 
 			<!--page -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>com.babasport</groupId>
 				<artifactId>page</artifactId>
 				<version>1.0</version>
-			</dependency>
+			</dependency> -->
 			<!-- solrJ -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.apache.solr</groupId>
 				<artifactId>solr-solrj</artifactId>
 				<version>4.10.3</version>
 			</dependency>
-
+ -->
 			<!-- jedis Java接口 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>redis.clients</groupId>
 				<artifactId>jedis</artifactId>
 				<version>2.6.2</version>
 				<type>jar</type>
 			</dependency>
-			
+			 -->
 			<!-- redis 依赖 -->
 		<!-- 	<dependency>
 				<groupId>org.springframework.data</groupId>
@@ -271,7 +271,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			 -->
 			<!-- FastDFS client -->
 
-			<dependency>
+<!-- 			<dependency>
 				<groupId>fastdfs_client</groupId>
 				<artifactId>fastdfs_client</artifactId>
 				<version>1.20</version>
@@ -293,10 +293,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>1.1.41</version>
-			</dependency>
+			</dependency> -->
 
 			<!-- Zookeeper 用于分布式服务管理 -->
-
+<!-- 
 			<dependency>
 				<groupId>com.github.sgroschupf</groupId>
 				<artifactId>zkclient</artifactId>
@@ -306,10 +306,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<groupId>org.apache.zookeeper</groupId>
 				<artifactId>zookeeper</artifactId>
 				<version>3.4.6</version>
-			</dependency>
+			</dependency> -->
 			<!-- Zookeeper 用于分布式服务管理 end -->
 			<!-- Active MQ 开始 -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>org.apache.activemq</groupId>
 				<artifactId>activemq-all</artifactId>
 				<version>5.8.0</version>
@@ -319,7 +319,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<artifactId>activemq-pool</artifactId>
 				<version>5.8.0</version>
 			</dependency>
-			
+			 -->
 			<!--velocity  
 			<dependency>
                <groupId>org.apache.velocity</groupId>
@@ -333,21 +333,21 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<artifactId>spring-data-commons</artifactId>
 				<version>1.12.1.RELEASE</version>
 			</dependency> -->
-			<dependency>
+<!-- 			<dependency>
 				<groupId>commons-beanutils</groupId>
 				<artifactId>commons-beanutils</artifactId>
 				<version>1.7.0</version>
 			</dependency>
-		</dependencies>
+		</dependencies> -->
 	</dependencyManagement>
 	<dependencies>
 		<!-- Tomcat7 servlet-api -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-jsp-api</artifactId>
 			<version>7.0.47</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 <!-- 		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
@@ -356,19 +356,19 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-commons</artifactId>
 		</dependency> -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
 			<version>1.7.0</version>
-		</dependency>
+		</dependency> -->
 		
 		
 			
-		<dependency>
+<!-- 		<dependency>
 	    	<groupId>com.aliyun.oss</groupId>
     		<artifactId>aliyun-sdk-oss</artifactId>
     		<version>2.7.0</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>-->
   
 </project>
